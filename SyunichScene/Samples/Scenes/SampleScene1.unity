@@ -797,7 +797,7 @@ PrefabInstance:
         type: 3}
       propertyPath: EffectorPrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 8177350239660258554, guid: 54f101a8625d92e43a8b3dc08030dcf5,
+      objectReference: {fileID: 208061196110111884, guid: 70f890793c7356b4c88d45909a60ff1a,
         type: 3}
     - target: {fileID: 2137609102325326759, guid: eb89a6adc38fa4a498b3f015029898b4,
         type: 3}

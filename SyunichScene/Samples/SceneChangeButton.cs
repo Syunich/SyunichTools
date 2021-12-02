@@ -15,7 +15,6 @@ namespace SyunichSample
             _clicked_Button.onClick.AddListener(() => SceneChanger.Instance.ChangeScene(_directionScenename, _effectorNumber));
 
         }
-
         private void OnDestroy()
         {
             _clicked_Button.onClick.RemoveAllListeners();
