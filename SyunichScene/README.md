@@ -17,7 +17,7 @@ Put the **SceneChanger** Prefab in the first scene(in SyunichScene -> Resources 
 
 
 ### (2)
-(if you use sample effector , you can go (x).)
+(if you use sample effector , you can go step **5**.)
 You can make your only effectors used by scene changing. Make the class which inherit the
 `SyunichTool.SceneChangeEffector` class.
 `RunBefore()` need the staging of before scene changing.
@@ -37,7 +37,7 @@ Set the Effector Prefabs in Inspector of SceneChanger.
 
 ![scene3_0](https://user-images.githubusercontent.com/78691899/144393571-fa648917-ffe3-4c53-bbf8-e5f1f9f099b5.PNG)
 
-If you didn't make Effector Prefab in (2) ~ (4) , you can use Sample Effector in SyunichScene -> Resources -> Prefabs -> Effectors 
+If you didn't make Effector Prefab in step (2) ~ (4) , you can use Sample Effector in SyunichScene -> Resources -> Prefabs -> Effectors 
 instead.
 
 ![sampleeffector](https://user-images.githubusercontent.com/78691899/144393894-46ce8ccb-ca0e-4d08-ac5e-f297c1bb33cb.PNG)
@@ -45,4 +45,4 @@ instead.
 ### **6**
 You can Change the Scene by using `SyunichTool.SceneChanger.Instance.ChangeScene(string scenename , int effectnumber)`  anywhere in the Project.
 `scenename` is the scene you want to change.
-`scenenumber` is the effector number you select in 5.
+`scenenumber` is the effector number you select in step 5.
