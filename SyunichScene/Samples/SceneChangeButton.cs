@@ -12,7 +12,7 @@ namespace SyunichSample
 
         private void Start()
         {
-            _clicked_Button.onClick.AddListener(() => StartCoroutine(SceneChanger.Instance.ChangeScene(_directionScenename, _effectorNumber)));
+            _clicked_Button.onClick.AddListener(() => SceneChanger.Instance.ChangeScene(_directionScenename, _effectorNumber));
 
         }
 
