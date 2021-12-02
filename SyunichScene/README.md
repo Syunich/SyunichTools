@@ -31,6 +31,7 @@ Make this Object a Prefab, and you can delete this object in Hierarchy.
 **5**
 Set the Effector Prefabs in Inspector of SceneChanger.
 ![scene3_0](https://user-images.githubusercontent.com/78691899/144393571-fa648917-ffe3-4c53-bbf8-e5f1f9f099b5.PNG)
+
 If you didn't make Effector Prefab in (2) ~ (4) , you can use Sample Effector in SyunichScene -> Resources -> Prefabs -> Effectors 
 instead.
 ![sampleeffector](https://user-images.githubusercontent.com/78691899/144393894-46ce8ccb-ca0e-4d08-ac5e-f297c1bb33cb.PNG)
