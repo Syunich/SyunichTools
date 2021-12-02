@@ -22,7 +22,7 @@ You can make your only effectors used by scene changing. Make the class which in
 `SyunichTool.SceneChangeEffector` class.
 `RunBefore()` need the staging of before scene changing.
 `RunAfter()` need the staging of after scene changing.
-(Sample code is SyunichScene -> Resources -> Scripts -> SampleFeedOneImage.cs).
+(Sample code is SyunichScene -> Resources -> Scripts -> EffectorScripts).
 
 ### (3)
 Make the GameObhect in Any Hierarchy and use AddComponent to put the class which you made in (2).
